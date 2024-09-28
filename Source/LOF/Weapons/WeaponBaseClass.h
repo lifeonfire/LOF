@@ -26,6 +26,6 @@ public:
 
 	// Variable 
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere , BlueprintReadWrite)
 	TSubclassOf < AActor> ProjectileClass;
 };
