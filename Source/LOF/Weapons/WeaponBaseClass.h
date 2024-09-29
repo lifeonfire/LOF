@@ -28,4 +28,7 @@ public:
 
 	UPROPERTY(EditAnywhere , BlueprintReadWrite)
 	TSubclassOf < AActor> ProjectileClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf < AActor> CasingClass;
 };
